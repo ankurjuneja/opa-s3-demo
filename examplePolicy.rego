@@ -1,4 +1,4 @@
-package system.main
+package app.examplePolicy
 
 import input
 
