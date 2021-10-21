@@ -1,0 +1,12 @@
+services:
+  - name: s3-data
+    url: https://opa-s3-demo.s3.us-west-1.amazonaws.com
+
+bundles:
+  authz:
+    service: s3-data
+    resource: opa-data/bundle.tar.gz
+    persist: true
+    polling:
+      min_delay_seconds: 10
+      max_delay_seconds: 20
