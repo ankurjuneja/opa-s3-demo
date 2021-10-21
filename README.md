@@ -1,4 +1,4 @@
-# opal-demo
+# opa-s3-demo
 
 This project demonstrates OPA integration with Amazon S3.
 
