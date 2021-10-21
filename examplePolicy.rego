@@ -9,5 +9,5 @@ allow {
 }
 
 client_is_allowed {
-    data[input.identity][_] == input.target
+    data.bundle[input.identity][_] == input.target
 }
